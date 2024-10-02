@@ -9,7 +9,7 @@
     
     .bg-gradient {background: linear-gradient(to right,#ce2e3c,#008000);}
     .bg-black {background-color: #030000; }
-    .bg-white {background-color: #009ee2;}
+    .bg-white {background-color: #00b3ff;}
     
     .radius {border-radius: 7px;}
     /* CABEÇALHO */
@@ -85,4 +85,4 @@
     .menu {width: auto; height: 56px; line-height: 56px; float: right; background-color: #00b3ff ; 
     display: block !important; position: static;}
     .menu li {padding: 0; float: left;}
-    .menu li a {color:#130400; font-size: 1em; padding: 15px; }
+    .menu li a {color:#00b3ff; font-size: 1em; padding: 15px; }
