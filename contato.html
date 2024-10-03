@@ -3,12 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <nav class="menu">
-            <a class="btn-close"><i class="fa fa-times"></i></a>
-            <ul>
-                <li><a href="home.html">voltar</a></li>
-
-    <title>Cadastro</title>
+    <title>Contato</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -23,11 +18,11 @@
             text-align: center;
         }
         .container {
-            max-width: 600px;
+            max-width: 800px;
             margin: 20px auto;
             padding: 20px;
             background: rgb(255, 255, 255);
-            border-radius: 8px;
+            border-radius: 10px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
         label {
@@ -37,7 +32,7 @@
         input, textarea {
             width: 100%;
             padding: 10px;
-            margin-bottom: 15px;
+            margin-bottom: 13px;
             border: 1px solid #ccc;
             border-radius: 4px;
         }
@@ -46,7 +41,7 @@
             color: white;
             border: none;
             padding: 10px;
-            border-radius: 4px;
+            border-radius: 5px;
             cursor: pointer;
         }
         button:hover {
@@ -61,40 +56,32 @@
             bottom: 0;
             width: 100%;
         }
-        nav {
-            margin: 20px 0;
-            text-align: center;
-        }
-        nav a {
-            margin: 0 15px;
-            color: #007BFF;
-            text-decoration: none;
-        }
-        #success-message {
-            display: none;
-            text-align: center;
-            font-size: 1.2em;
-            color: green;
-        }
     </style>
 </head>
 <body>
+    <header>
+        <h1>Entre em Contato</h1>
+    </header>
     
-    <div class="container" id="contact-container">
-        <h2>cadastro</h2>
-        <form id="contact-form" onsubmit="submitForm(event)">
+    <div class="container">
+        <h2>Formulário de Contato</h2>
+        <form action="#" method="post">
             <label for="nome">Nome:</label>
             <input type="text" id="nome" name="nome" required>
             
             <label for="email">E-mail:</label>
-            <input type="email" id="email" name="email" required pattern="[^ @]*@[^ @]*">
+            <input type="email" id="email" name="email" required>
             
             <label for="mensagem">Mensagem:</label>
             <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
             
             <button type="submit">Enviar</button>
         </form>
-        <div id="success-message">Seu cadastro foi realizado com sucesso!</div>
     </div>
+
+    <nav class="menu">
+        <a class="btn-close"><i class="fa fa-times"></i></a>
+        <li><a href="home.html">voltar</a></li>
+        
 </body>
 </html>
