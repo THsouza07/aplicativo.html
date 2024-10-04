@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="imag/cadastro.jpg">
     <title>Cadastro</title>
     <style>
         body {
@@ -12,17 +13,17 @@
             background-color: #00b3ff;
         }
         header {
-            background: #228af8;
-            color: white;
+            background: #00bdfc;
+            color: #000000;
             padding: 10px 0;
             text-align: center;
         }
         .container {
-            max-width: 800px;
-            margin: 20px auto;
-            padding: 20px;
+            max-width: 900px;
+            margin: 50px auto;
+            padding: 80px;
             background: rgb(255, 255, 255);
-            border-radius: 10px;
+            border-radius: 20px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
         label {
@@ -40,8 +41,8 @@
             background: #007BFF;
             color: white;
             border: none;
-            padding: 10px;
-            border-radius: 5px;
+            padding: 15px;
+            border-radius: 10px;
             cursor: pointer;
         }
         button:hover {
@@ -72,8 +73,8 @@
             <label for="email">E-mail:</label>
             <input type="email" id="email" name="email" required>
             
-            <label for="mensagem">Mensagem:</label>
-            <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+            <label for="senha">Senha:</label>
+            <input type="senha" id="senha" name="Senha" required>
             
             <button type="button" onclick="alert('Seu cadastro foi realizado com sucesso!')">Enviar</button>
         </form>
